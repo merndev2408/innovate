@@ -1,0 +1,75 @@
+/* === Responsive Fixes === */
+@media (max-width: 1200px) {
+  .container {
+    width: 100% !important;
+    padding: 0 20px;
+  }
+
+  #banner .banner-details h1 {
+    font-size: 64px;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .counter-row {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .vr {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #banner .banner-details h1 {
+    font-size: 48px;
+  }
+
+  #banner .banner-details p {
+    font-size: 16px;
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .like-article {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .like-article h4 {
+    font-size: 16px;
+  }
+
+  .like-article span {
+    font-size: 14px;
+  }
+
+  .testimonial-card {
+    padding: 30px 20px;
+  }
+
+  .arrow-btn {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  #banner .banner-details h1 {
+    font-size: 36px;
+  }
+
+  .navbar button {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .footer-section {
+    text-align: center;
+  }
+}
